@@ -91,9 +91,10 @@
   Enero\or Febrero\or Marzo\or Abril\or Mayo\or Junio\or
   Julio\or Agosto\or Septiembre\or Octubre\or Noviembre\or Diciembre\fi \space\number\year
 }
-\newcommand*{\subtitle}[1]{\gdef\subtitle{#1}}
-\newcommand*{\group}[1]{\gdef\group{#1}}
-\newcommand*{\profesor}[1]{\gdef\profesor{#1}}
+\newcommand*{\subtitle}[1]{\gdef \@subtitle{#1}}
+%\newcommand*{\subtitle}[1]{\gdef\@subtitle{#1}}
+\newcommand*{\group}[1]{\gdef\@group{#1}}
+\newcommand*{\profesor}[1]{\gdef\@profesor{#1}}
 
 
 
